@@ -54,7 +54,7 @@ These product lines are currently developed privately while their technical foun
 
 ## Direction
 
-I am building a connected engineering-software portfolio across **CAD/AEC intelligence, specification systems, technical compliance and procurement decision infrastructure**, with selected work evolving under **PAMILANGA Labs**.
+I am building a connected engineering-software portfolio across **CAD/AEC intelligence, industrial systems, specification intelligence, technical compliance and procurement decision infrastructure**, with selected work evolving under **PAMILANGA Labs**.
 
 The goal is simple: build tools that make complex engineering workflows more **deterministic, auditable and explainable**.
 
