@@ -32,9 +32,25 @@ I have worked in **multi-country, audit-controlled and confidentiality-critical 
 
 ## Engineering software portfolio
 
-I also build engineering tools for workflows where drawings, specifications, supplier evidence, enterprise data and project requirements need to become decisions that can be **reviewed, traced and reproduced**.
+I also build engineering tools for workflows where code changes, drawings, specifications, supplier evidence, enterprise data and project requirements need to become decisions that can be **reviewed, traced and reproduced**.
 
-### Flagship open-source project
+### Developer tooling flagship
+
+### [impactctl](https://github.com/yigitcan-ozturk/impactctl)
+**Know what your change can break — before you merge it.**
+
+A deterministic pull-request change-impact CLI that turns a Git diff into an explainable system-risk signal before merge.
+
+- API contract, database migration, deployment/infrastructure, CI/CD and configuration signals
+- `CODEOWNERS`-aware ownership boundaries and review hints
+- explainable `LOW / MEDIUM / HIGH / CRITICAL` impact classification
+- human-readable, JSON and GitHub-flavored Markdown output
+- automated GitHub PR impact comments
+- cross-platform `v0.1.0` release for Linux, macOS and Windows with SHA-256 checksums
+
+[Repository](https://github.com/yigitcan-ozturk/impactctl) · [v0.1.0 Release](https://github.com/yigitcan-ozturk/impactctl/releases/tag/v0.1.0)
+
+### Engineering / procurement flagship
 
 ### [bidlint](https://github.com/yigitcan-ozturk/bidlint)
 **Technical bid compliance, with evidence before confidence.**
@@ -82,7 +98,7 @@ These product lines are currently developed privately while their technical foun
 
 ## Direction
 
-I am building a connected portfolio across **SAP enterprise architecture, CAD/AEC intelligence, industrial systems, specification intelligence, technical compliance and procurement decision infrastructure**, with selected work evolving under **PAMILANGA Labs**.
+I am building a connected portfolio across **SAP enterprise architecture, developer tooling, CAD/AEC intelligence, industrial systems, specification intelligence, technical compliance and procurement decision infrastructure**, with selected work evolving under **PAMILANGA Labs**.
 
 The common thread is simple: make complex enterprise and engineering workflows more **deterministic, auditable and explainable**.
 
