@@ -1,12 +1,40 @@
 # Yiğitcan Öztürk
 
-**Principal Enterprise Architect & Engineering Software Builder**
+**Principal SAP Enterprise & Technology Architect | S/4HANA & RISE | SAP MDG & Data | BTP & Integration | Industrial & Engineering Systems**
 
-I build engineering tools for complex technical workflows — where drawings, specifications, supplier evidence, enterprise data and project requirements need to become decisions that can be reviewed, traced and reproduced.
+I work at the intersection of **enterprise architecture, SAP-enabled transformation, data, integration, procurement, industrial operations and engineering software**.
 
-My professional background spans enterprise architecture, SAP-enabled transformation, procurement and industrial operations. GitHub is where I turn that operating experience into software.
+My background spans 20 years of progression from hands-on multinational logistics and procurement into ERP-enabled operating-model leadership and enterprise architecture. I translate complex business, process, data, application, integration, platform and cloud requirements into **target-state architectures, governance decisions and executable delivery roadmaps**.
 
-## Flagship open-source project
+**Based in Türkiye / UK-facing | Open to selected international architecture, transformation, advisory and collaboration opportunities.**
+
+[LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · [Architecture evidence](SAP_ARCHITECTURE_EVIDENCE.md)
+
+## SAP enterprise architecture focus
+
+- **S/4HANA & RISE** — target-state architecture, readiness, migration/conversion logic, validation, cutover, rollback and stabilisation
+- **SAP MDG & Data** — Business Partner, supplier/vendor, customer and material governance; ownership, quality, migration and reconciliation
+- **BTP & Integration** — SAP BTP Integration Suite, Cloud Connector, RFC/BAPI, IDoc, OData, REST/SOAP APIs and dependency governance
+- **Basis/HANA & Migration** — Basis, HANA, SUM/DMO, SWPM, R3trans/tp, transports, lifecycle, system refresh/copy and operational readiness
+- **PLM/EAM & Process** — asset/equipment dependencies, SAP MM, P2P/S2P, material master, logistics, invoice verification and finance interfaces
+- **Enterprise Architecture & Governance** — AS-IS / TO-BE, roadmaps, operating model, LeanIX, Signavio, Clean Core and TOGAF-aligned concepts
+
+## Principal-level evidence
+
+| Evidence | Scope |
+| --- | --- |
+| **20 years** | Multinational operations, process, transformation and architecture progression |
+| **50+ partners** | International manufacturing, technology and specialist delivery ecosystem |
+| **30+ requirements** | Industrial / project requirements coordinated end to end |
+| **30–40% faster** | RFQ clarification cycles through standardised scope, documentation, ownership and decision points |
+
+I have worked in **multi-country, audit-controlled and confidentiality-critical environments**, connecting business requirements with SAP process, master data, integration, platform and delivery decisions. Specific employer, programme, end-client and system details are withheld where required by contractual confidentiality.
+
+## Engineering software portfolio
+
+I also build engineering tools for workflows where drawings, specifications, supplier evidence, enterprise data and project requirements need to become decisions that can be **reviewed, traced and reproduced**.
+
+### Flagship open-source project
 
 ### [bidlint](https://github.com/yigitcan-ozturk/bidlint)
 **Technical bid compliance, with evidence before confidence.**
@@ -54,8 +82,8 @@ These product lines are currently developed privately while their technical foun
 
 ## Direction
 
-I am building a connected engineering-software portfolio across **CAD/AEC intelligence, industrial systems, specification intelligence, technical compliance and procurement decision infrastructure**, with selected work evolving under **PAMILANGA Labs**.
+I am building a connected portfolio across **SAP enterprise architecture, CAD/AEC intelligence, industrial systems, specification intelligence, technical compliance and procurement decision infrastructure**, with selected work evolving under **PAMILANGA Labs**.
 
-The goal is simple: build tools that make complex engineering workflows more **deterministic, auditable and explainable**.
+The common thread is simple: make complex enterprise and engineering workflows more **deterministic, auditable and explainable**.
 
-[GitHub projects](https://github.com/yigitcan-ozturk?tab=repositories) · [PAMILANGA](https://www.pamilanga.com)
+**Relevant conversations:** Principal / Lead SAP Enterprise Architecture · S/4HANA / RISE transformation · SAP MDG & data governance · BTP / integration architecture · architecture governance · transformation advisory · industrial / engineering technology collaboration.
