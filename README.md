@@ -1,25 +1,25 @@
 # Yiğitcan Öztürk
 
-**Principal SAP Enterprise & Technology Architect | S/4HANA & RISE | SAP MDG & Data | BTP & Integration | Industrial & Engineering Systems**
+**Principal SAP Enterprise & Technology Architect | S/4HANA & RISE | SAP MDG & Data | BTP & Integration | Engineering Software**
 
 I work at the intersection of **enterprise architecture, SAP-enabled transformation, data, integration, procurement, industrial operations and engineering software**.
 
 My background spans 20 years of progression from hands-on multinational logistics and procurement into ERP-enabled operating-model leadership and enterprise architecture. I translate complex business, process, data, application, integration, platform and cloud requirements into **target-state architectures, governance decisions and executable delivery roadmaps**.
 
-**Based in Türkiye / UK-facing | Open to selected international architecture, transformation, advisory and collaboration opportunities.**
+**Based in Türkiye / UK-facing | Open to selected international architecture, transformation, advisory and engineering-technology collaboration.**
 
 [LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · [Architecture evidence](SAP_ARCHITECTURE_EVIDENCE.md)
 
-## SAP enterprise architecture focus
+## SAP enterprise architecture
 
 - **S/4HANA & RISE** — target-state architecture, readiness, migration/conversion logic, validation, cutover, rollback and stabilisation
 - **SAP MDG & Data** — Business Partner, supplier/vendor, customer and material governance; ownership, quality, migration and reconciliation
 - **BTP & Integration** — SAP BTP Integration Suite, Cloud Connector, RFC/BAPI, IDoc, OData, REST/SOAP APIs and dependency governance
-- **Basis/HANA & Migration** — Basis, HANA, SUM/DMO, SWPM, R3trans/tp, transports, lifecycle, system refresh/copy and operational readiness
+- **Basis/HANA & Migration** — Basis, HANA, SUM/DMO, SWPM, transports, lifecycle, system refresh/copy and operational readiness
 - **PLM/EAM & Process** — asset/equipment dependencies, SAP MM, P2P/S2P, material master, logistics, invoice verification and finance interfaces
 - **Enterprise Architecture & Governance** — AS-IS / TO-BE, roadmaps, operating model, LeanIX, Signavio, Clean Core and TOGAF-aligned concepts
 
-## Principal-level evidence
+### Principal-level evidence
 
 | Evidence | Scope |
 | --- | --- |
@@ -30,63 +30,61 @@ My background spans 20 years of progression from hands-on multinational logistic
 
 I have worked in **multi-country, audit-controlled and confidentiality-critical environments**, connecting business requirements with SAP process, master data, integration, platform and delivery decisions. Specific employer, programme, end-client and system details are withheld where required by contractual confidentiality.
 
-## Engineering software portfolio
+## Flagship engineering software
 
-I also build engineering tools for workflows where code changes, drawings, specifications, supplier evidence, enterprise data and project requirements need to become decisions that can be **reviewed, traced and reproduced**.
+I build tools for workflows where code changes, specifications, supplier evidence and project requirements need to become decisions that can be **reviewed, traced and reproduced**.
 
-### Developer tooling flagship
+### [impactctl](https://github.com/yigitcan-ozturk/impactctl) — developer tooling
 
-### [impactctl](https://github.com/yigitcan-ozturk/impactctl)
 **Know what your change can break — before you merge it.**
 
 A deterministic pull-request change-impact CLI that turns a Git diff into an explainable system-risk signal before merge.
 
-- API contract, database migration, deployment/infrastructure, CI/CD and configuration signals
+- API contract, database migration, infrastructure, CI/CD and configuration signals
 - `CODEOWNERS`-aware ownership boundaries and review hints
-- explainable `LOW / MEDIUM / HIGH / CRITICAL` impact classification
+- service maps, OpenAPI relationships, AsyncAPI impact and downstream dependency paths
 - human-readable, JSON and GitHub-flavored Markdown output
 - automated GitHub PR impact comments
-- cross-platform `v0.1.0` release for Linux, macOS and Windows with SHA-256 checksums
+- cross-platform public release with checksums
 
-[Repository](https://github.com/yigitcan-ozturk/impactctl) · [v0.1.0 Release](https://github.com/yigitcan-ozturk/impactctl/releases/tag/v0.1.0)
+[Repository](https://github.com/yigitcan-ozturk/impactctl) · [Releases](https://github.com/yigitcan-ozturk/impactctl/releases)
 
-### Engineering / procurement flagship
+### [bidlint](https://github.com/yigitcan-ozturk/bidlint) — engineering procurement
 
-### [bidlint](https://github.com/yigitcan-ozturk/bidlint)
 **Technical bid compliance, with evidence before confidence.**
 
 A deterministic engine for comparing engineering specifications with vendor bids, datasheets and submittals while preserving source provenance and explicit uncertainty.
 
 - `PASS / DEVIATION / MISSING / REVIEW` findings
 - PDF, XLSX and explicitly scoped IFC evidence
-- reviewable JSON, CSV, Markdown, HTML and XLSX outputs
-- stable CLI and release contract
-- production-pilot and regression gates
+- JSON, CSV, Markdown, HTML and XLSX outputs
+- technical knockout, clarification and review workflows
+- frozen stable contract and production-pilot release gates
+- approved external sanitized pilot and regression replay
 
 [Repository](https://github.com/yigitcan-ozturk/bidlint) · [Releases](https://github.com/yigitcan-ozturk/bidlint/releases)
 
-## Engineering software in development
+## Open-source procurement decision stack
 
-### AXF — Architectural eXecution Framework
-CAD/BIM-native architectural intelligence for reconstructing project context, applying project requirements and producing coordinated technical outputs.
-
-### PamiCAD
-Technical CAD tooling focused on engineering drawing, manufacturing-oriented workflows and structured CAD automation.
-
-### SPEC AI
-Specification intelligence focused on extracting, structuring and validating engineering requirements while preserving provenance and uncertainty.
-
-These product lines are currently developed privately while their technical foundations and validation gates mature.
-
-## Open-source procurement toolchain
+The public procurement tools are intentionally separated by responsibility so commercial normalization, supplier risk, technical compliance and final supplier decisions remain independently inspectable.
 
 | Tool | Purpose |
 | --- | --- |
 | [supplier-scorecard](https://github.com/yigitcan-ozturk/supplier-scorecard) | Explainable supplier decision infrastructure |
 | [rfqdiff](https://github.com/yigitcan-ozturk/rfqdiff) | Structured quotation comparison |
-| [vendor-risk-engine](https://github.com/yigitcan-ozturk/vendor-risk-engine) | Transparent supplier-risk scoring |
 | [currency-normalizer](https://github.com/yigitcan-ozturk/currency-normalizer) | Multi-currency commercial normalization |
+| [vendor-risk-engine](https://github.com/yigitcan-ozturk/vendor-risk-engine) | Transparent supplier-risk scoring |
 | [payment-terms-parser](https://github.com/yigitcan-ozturk/payment-terms-parser) | Structured supplier payment-term interpretation |
+
+## Private R&D
+
+Selected product lines remain private while their technical foundations and validation gates mature:
+
+- **AXF — Architectural eXecution Framework** — CAD/BIM-native architectural intelligence and coordinated technical output
+- **PamiCAD** — engineering drawing and structured CAD automation
+- **SPEC AI** — specification intelligence with provenance and uncertainty controls
+- **Smart SlabFlow** — industrial material-flow and slab-operation intelligence
+- **PAMILANGA GreenOps** — industrial sustainability and operational decision tooling
 
 ## Engineering principles
 
@@ -98,8 +96,8 @@ These product lines are currently developed privately while their technical foun
 
 ## Direction
 
-I am building a connected portfolio across **SAP enterprise architecture, developer tooling, CAD/AEC intelligence, industrial systems, specification intelligence, technical compliance and procurement decision infrastructure**, with selected work evolving under **PAMILANGA Labs**.
+The common thread across my SAP architecture work and engineering software portfolio is simple: make complex enterprise and engineering workflows more **deterministic, auditable and explainable**.
 
-The common thread is simple: make complex enterprise and engineering workflows more **deterministic, auditable and explainable**.
+Selected work is evolving under **PAMILANGA Labs** across developer tooling, CAD/AEC intelligence, specification intelligence, procurement infrastructure and industrial systems.
 
 **Relevant conversations:** Principal / Lead SAP Enterprise Architecture · S/4HANA / RISE transformation · SAP MDG & data governance · BTP / integration architecture · architecture governance · transformation advisory · industrial / engineering technology collaboration.
