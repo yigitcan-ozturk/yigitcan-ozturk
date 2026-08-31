@@ -38,11 +38,12 @@ I build tools for workflows where code changes, specifications, supplier evidenc
 
 **Know what your change can break — before you merge it.**
 
-A deterministic pull-request change-impact CLI that turns a Git diff into an explainable system-risk signal before merge.
+A deterministic change-impact CLI that turns Git diffs — and experimentally, explicit SAP/enterprise dependency manifests — into explainable system-risk signals.
 
 - API contract, database migration, infrastructure, CI/CD and configuration signals
 - `CODEOWNERS`-aware ownership boundaries and review hints
 - service maps, OpenAPI relationships, AsyncAPI impact and downstream dependency paths
+- **experimental SAP/enterprise path:** changed SAP component → integration → application → business process, with explicit dependency evidence and owners
 - human-readable, JSON and GitHub-flavored Markdown output
 - automated GitHub PR impact comments
 - cross-platform public release with checksums
