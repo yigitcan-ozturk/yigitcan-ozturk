@@ -85,6 +85,7 @@ Selected product lines remain private while their technical foundations and vali
 - **PamiCAD** — engineering drawing and structured CAD automation
 - **SPEC AI** — specification intelligence with provenance and uncertainty controls
 - **Smart SlabFlow** — industrial material-flow and slab-operation intelligence
+- **Industrial Time-Series Intelligence** — multivariate forecasting, anomaly detection and early-failure intelligence for industrial equipment
 - **PAMILANGA GreenOps** — industrial sustainability and operational decision tooling
 
 ## Engineering principles
@@ -99,6 +100,6 @@ Selected product lines remain private while their technical foundations and vali
 
 The common thread across my SAP architecture work and engineering software portfolio is simple: make complex enterprise and engineering workflows more **deterministic, auditable and explainable**.
 
-Selected work is evolving under **PAMILANGA Labs** across developer tooling, CAD/AEC intelligence, specification intelligence, procurement infrastructure and industrial systems.
+Selected work is evolving under **PAMILANGA Labs** across developer tooling, CAD/AEC intelligence, specification intelligence, procurement infrastructure, industrial systems and industrial time-series intelligence.
 
 **Relevant conversations:** Principal / Lead SAP Enterprise Architecture · S/4HANA / RISE transformation · SAP MDG & data governance · BTP / integration architecture · architecture governance · transformation advisory · industrial / engineering technology collaboration.
