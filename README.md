@@ -30,6 +30,14 @@ My background spans 20 years of progression from hands-on multinational logistic
 
 I have worked in **multi-country, audit-controlled and confidentiality-critical environments**, connecting business requirements with SAP process, master data, integration, platform and delivery decisions. Specific employer, programme, end-client and system details are withheld where required by contractual confidentiality.
 
+## Selected upstream open-source contributions
+
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [AIBrix / vLLM](https://github.com/vllm-project/aibrix/pull/2652) | RayClusterFleet integration test coverage | **Merged upstream** |
+| [Great Expectations](https://github.com/fivetran/great_expectations/pull/12149) | Validator type-checking improvements | **Merged upstream** |
+| [EFF Rayhunter](https://github.com/EFForg/rayhunter/pull/1134) | Installer GUI argument help and defaults | **Merged upstream** |
+
 ## Flagship engineering software
 
 I build tools for workflows where code changes, specifications, supplier evidence and project requirements need to become decisions that can be **reviewed, traced and reproduced**.
