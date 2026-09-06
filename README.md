@@ -31,11 +31,14 @@ I solve complex **enterprise transformation, integration, data-governance and en
 | **50+ partners** | International manufacturing, technology and specialist delivery ecosystem |
 | **30+ requirements** | Industrial / project requirements coordinated end to end |
 | **30–40% faster** | RFQ clarification cycles through standardised scope, evidence, ownership and decision points |
-| **4 upstream merges** | Code accepted into external open-source projects, including AIBrix/vLLM, Great Expectations and EFF Rayhunter |
+| **4 upstream merges** | Code accepted into AIBrix / vLLM, Great Expectations and EFF Rayhunter |
+| **5 active upstream PRs** | Current external contributions under review across Prefect, OpenTelemetry C++, lakeFS and xAI SDK |
 
 I have worked in **multi-country, audit-controlled and confidentiality-critical environments**. Specific employer, programme, end-client and system details are withheld where required by contractual confidentiality.
 
 ## Upstream open-source contributions
+
+### Merged upstream
 
 | Project | Contribution | Status |
 | --- | --- | --- |
@@ -43,7 +46,16 @@ I have worked in **multi-country, audit-controlled and confidentiality-critical 
 | [AIBrix / vLLM #2652](https://github.com/vllm-project/aibrix/pull/2652) | RayClusterFleet integration test coverage | **Merged upstream** |
 | [Great Expectations #12149](https://github.com/fivetran/great_expectations/pull/12149) | Validator type-checking improvements | **Merged upstream** |
 | [EFF Rayhunter #1134](https://github.com/EFForg/rayhunter/pull/1134) | Installer GUI argument help and defaults | **Merged upstream** |
-| [OpenTelemetry C++ #4520](https://github.com/open-telemetry/opentelemetry-cpp/pull/4520) | Wildcard matching for metric view instrument names | **Active review / CI** |
+
+### Active upstream review
+
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [Prefect #23024](https://github.com/PrefectHQ/prefect/pull/23024) | Fix Prefect task retention in shared Dask schedulers | **Active review** |
+| [OpenTelemetry C++ #4520](https://github.com/open-telemetry/opentelemetry-cpp/pull/4520) | Wildcard matching for declarative metric-view instrument names | **Active review / CI** |
+| [lakeFS #10525](https://github.com/treeverse/lakeFS/pull/10525) | Simplify Spark integration-test setup using shell and lakectl | **Active review** |
+| [lakeFS #10530](https://github.com/treeverse/lakeFS/pull/10530) | Remove WebUI login config exhaustive-deps suppression | **Active review** |
+| [xAI SDK Python #205](https://github.com/xai-org/xai-sdk-python/pull/205) | Preserve explicit zero polling durations | **Active review** |
 
 ## Flagship engineering software
 
@@ -71,6 +83,7 @@ A deterministic engine for comparing engineering specifications with vendor bids
 - PDF, XLSX and explicitly scoped IFC evidence
 - JSON, CSV, Markdown, HTML and XLSX outputs
 - technical knockout, clarification and review workflows
+- supplier collaboration and evidence-provenance workflows under active pilot development
 
 [Repository](https://github.com/yigitcan-ozturk/bidlint) · [Releases](https://github.com/yigitcan-ozturk/bidlint/releases)
 
@@ -83,6 +96,14 @@ A deterministic engine for comparing engineering specifications with vendor bids
 | [currency-normalizer](https://github.com/yigitcan-ozturk/currency-normalizer) | Multi-currency commercial normalization |
 | [vendor-risk-engine](https://github.com/yigitcan-ozturk/vendor-risk-engine) | Transparent supplier-risk scoring |
 | [payment-terms-parser](https://github.com/yigitcan-ozturk/payment-terms-parser) | Structured supplier payment-term interpretation |
+
+## Current engineering direction
+
+The active engineering path is converging around three connected areas:
+
+- **enterprise change-impact intelligence** — making architecture dependencies and delivery risk explicit before change reaches production;
+- **evidence-driven procurement systems** — turning technical, commercial and supplier evidence into auditable decisions;
+- **industrial agentic systems** — building deterministic, fail-closed workflows where AI assists analysis without hiding provenance, uncertainty or human decision boundaries.
 
 ## Engineering principles
 
