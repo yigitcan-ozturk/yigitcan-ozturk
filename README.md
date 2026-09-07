@@ -32,8 +32,8 @@ I solve complex **enterprise transformation, integration, data-governance and en
 | **30+ requirements** | Industrial / project requirements coordinated end to end |
 | **30–40% faster** | RFQ clarification cycles through standardised scope, evidence, ownership and decision points |
 | **194 PRs / 160 merged** | Authored pull requests across own and external GitHub projects |
-| **6 upstream merges** | Code accepted into Apache SeaTunnel, AIBrix / vLLM, Great Expectations and EFF Rayhunter |
-| **6 active upstream PRs** | Current external contributions under review across Apache SeaTunnel, OpenTelemetry C++, Prefect, lakeFS and xAI SDK |
+| **7 upstream merges** | Code accepted into OpenTelemetry C++, Apache SeaTunnel, AIBrix / vLLM, Great Expectations and EFF Rayhunter |
+| **5 active upstream PRs** | Current external contributions under review across Apache SeaTunnel, Prefect, lakeFS and xAI SDK |
 
 I have worked in **multi-country, audit-controlled and confidentiality-critical environments**. Specific employer, programme, end-client and system details are withheld where required by contractual confidentiality.
 
@@ -43,6 +43,7 @@ I have worked in **multi-country, audit-controlled and confidentiality-critical 
 
 | Project | Contribution | Status |
 | --- | --- | --- |
+| [OpenTelemetry C++ #4520](https://github.com/open-telemetry/opentelemetry-cpp/pull/4520) | Added wildcard matching for declarative Metrics SDK view instrument names, preserving implementation boundaries requested in review | **Merged upstream** |
 | [Apache SeaTunnel #12174](https://github.com/apache/seatunnel/pull/12174) | Added nonblank validation and focused factory coverage for DataHub sink connection options | **Merged upstream** |
 | [Apache SeaTunnel #12148](https://github.com/apache/seatunnel/pull/12148) | Added declarative nonblank validation and focused factory coverage for the Sentry connector | **Merged upstream** |
 | [AIBrix / vLLM #2669](https://github.com/vllm-project/aibrix/pull/2669) | Stabilised flaky KVCache pod-triggered reconciliation integration tests | **Merged upstream** |
@@ -56,7 +57,6 @@ I have worked in **multi-country, audit-controlled and confidentiality-critical 
 | --- | --- | --- |
 | [Apache SeaTunnel #12175](https://github.com/apache/seatunnel/pull/12175) | Validate Typesense source and sink connection options with focused factory coverage | **Active review** |
 | [Prefect #23024](https://github.com/PrefectHQ/prefect/pull/23024) | Fix Prefect task retention in shared Dask schedulers | **Active review** |
-| [OpenTelemetry C++ #4520](https://github.com/open-telemetry/opentelemetry-cpp/pull/4520) | Wildcard matching for declarative metric-view instrument names | **Active review / mergeable** |
 | [lakeFS #10525](https://github.com/treeverse/lakeFS/pull/10525) | Simplify Spark integration-test setup using shell and lakectl | **Active review** |
 | [lakeFS #10530](https://github.com/treeverse/lakeFS/pull/10530) | Remove WebUI login config exhaustive-deps suppression | **Active review** |
 | [xAI SDK Python #205](https://github.com/xai-org/xai-sdk-python/pull/205) | Preserve explicit zero polling durations | **Active review** |
