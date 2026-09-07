@@ -31,8 +31,8 @@ I solve complex **enterprise transformation, integration, data-governance and en
 | **50+ partners** | International manufacturing, technology and specialist delivery ecosystem |
 | **30+ requirements** | Industrial / project requirements coordinated end to end |
 | **30–40% faster** | RFQ clarification cycles through standardised scope, evidence, ownership and decision points |
-| **4 upstream merges** | Code accepted into AIBrix / vLLM, Great Expectations and EFF Rayhunter |
-| **5 active upstream PRs** | Current external contributions under review across Prefect, OpenTelemetry C++, lakeFS and xAI SDK |
+| **5 upstream merges** | Code accepted into Apache SeaTunnel, AIBrix / vLLM, Great Expectations and EFF Rayhunter |
+| **5 active upstream PRs** | Current external contributions under review across OpenTelemetry C++, Prefect, lakeFS and xAI SDK |
 
 I have worked in **multi-country, audit-controlled and confidentiality-critical environments**. Specific employer, programme, end-client and system details are withheld where required by contractual confidentiality.
 
@@ -42,6 +42,7 @@ I have worked in **multi-country, audit-controlled and confidentiality-critical 
 
 | Project | Contribution | Status |
 | --- | --- | --- |
+| [Apache SeaTunnel #12148](https://github.com/apache/seatunnel/pull/12148) | Added declarative nonblank validation and focused factory coverage for the Sentry connector | **Merged upstream** |
 | [AIBrix / vLLM #2669](https://github.com/vllm-project/aibrix/pull/2669) | Stabilised flaky KVCache pod-triggered reconciliation integration tests | **Merged upstream** |
 | [AIBrix / vLLM #2652](https://github.com/vllm-project/aibrix/pull/2652) | RayClusterFleet integration test coverage | **Merged upstream** |
 | [Great Expectations #12149](https://github.com/fivetran/great_expectations/pull/12149) | Validator type-checking improvements | **Merged upstream** |
@@ -52,7 +53,7 @@ I have worked in **multi-country, audit-controlled and confidentiality-critical 
 | Project | Contribution | Status |
 | --- | --- | --- |
 | [Prefect #23024](https://github.com/PrefectHQ/prefect/pull/23024) | Fix Prefect task retention in shared Dask schedulers | **Active review** |
-| [OpenTelemetry C++ #4520](https://github.com/open-telemetry/opentelemetry-cpp/pull/4520) | Wildcard matching for declarative metric-view instrument names | **Active review / CI** |
+| [OpenTelemetry C++ #4520](https://github.com/open-telemetry/opentelemetry-cpp/pull/4520) | Wildcard matching for declarative metric-view instrument names | **Maintainer approved / merge-ready after CI** |
 | [lakeFS #10525](https://github.com/treeverse/lakeFS/pull/10525) | Simplify Spark integration-test setup using shell and lakectl | **Active review** |
 | [lakeFS #10530](https://github.com/treeverse/lakeFS/pull/10530) | Remove WebUI login config exhaustive-deps suppression | **Active review** |
 | [xAI SDK Python #205](https://github.com/xai-org/xai-sdk-python/pull/205) | Preserve explicit zero polling durations | **Active review** |
