@@ -1,12 +1,14 @@
 # Yiğitcan Öztürk
 
-**Open-source systems engineer · Tool builder · Enterprise architecture practitioner**
+**Principal Enterprise & Technology Architect | SAP S/4HANA · RISE · BTP · Integration | Open-Source Engineering**
 
-I build and contribute to software around **developer tooling, distributed systems, reliability, change-impact analysis, engineering intelligence and evidence-driven workflows**.
+I work at the intersection of **enterprise architecture and hands-on engineering** — solving complex transformation, integration, reliability and engineering-workflow problems from diagnosis through executable delivery decisions.
 
 My current open-source work spans **Apache SeaTunnel, OpenTelemetry, Prefect/Dask, AIBrix/vLLM, lakeFS, Great Expectations, EFF Rayhunter and the xAI Python SDK**.
 
 [LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · [Architecture evidence](SAP_ARCHITECTURE_EVIDENCE.md) · **info@pamilanga.com**
+
+**Available for selected contract, fractional and advisory engagements across the UK / EMEA and internationally.**
 
 ## Open-source track record
 
