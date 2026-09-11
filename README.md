@@ -1,14 +1,23 @@
 # Yiğitcan Öztürk
 
-**Principal Enterprise & Technology Architect | SAP S/4HANA · RISE · BTP · Integration | Open-Source Engineering**
+**Principal Systems & Enterprise Architect | Distributed Systems · Reliability · AI Infrastructure · Open Source**
 
-I work at the intersection of **enterprise architecture and hands-on engineering** — solving complex transformation, integration, reliability and engineering-workflow problems from diagnosis through executable delivery decisions.
+I solve complex systems problems where **runtime behavior, integration, reliability, data flow and engineering decisions** need to become deterministic, testable and explainable.
 
-My current open-source work spans **Apache SeaTunnel, OpenTelemetry, Prefect/Dask, AIBrix/vLLM, lakeFS, Great Expectations, EFF Rayhunter and the xAI Python SDK**.
-
-[LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · [Architecture evidence](SAP_ARCHITECTURE_EVIDENCE.md) · **info@pamilanga.com**
+My current open-source work spans **Apache SeaTunnel, OpenTelemetry, Prefect/Dask, Grafana Tempo, AIBrix/vLLM, lakeFS, Great Expectations, Gazebo, EFF Rayhunter and the xAI Python SDK**.
 
 **Available for selected contract, fractional and advisory engagements across the UK / EMEA and internationally.**
+
+[LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · **info@pamilanga.com**
+
+## What I work on
+
+- Distributed systems reliability and runtime failure modes
+- Observability, telemetry and production diagnostics
+- AI / data infrastructure and orchestration
+- Developer tooling and change-impact analysis
+- Enterprise integration and architecture
+- Engineering procurement and auditable technical decision systems
 
 ## Open-source track record
 
@@ -16,11 +25,10 @@ My current open-source work spans **Apache SeaTunnel, OpenTelemetry, Prefect/Das
 | --- | --- |
 | **8 merged upstream PRs** | Accepted contributions across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations and EFF Rayhunter |
 | **3 Apache SeaTunnel merges** | Sentry, DataHub and Typesense connector validation improvements accepted into `dev` |
-| **4 active upstream PRs** | Prefect, lakeFS and xAI SDK contributions currently under review |
-| **Runtime/reliability track** | Active work around Prefect/Dask scheduler retention and SeaTunnel Zeta terminal-state delivery |
-| **Own tooling** | `impactctl`, `bidlint` and a growing deterministic procurement/engineering decision stack |
+| **Active systems work** | Prefect/Dask scheduler retention, OpenTelemetry gRPC teardown, Grafana Tempo filtering and SeaTunnel Zeta delivery semantics |
+| **Own tooling** | `impactctl`, `bidlint` and a deterministic procurement / engineering decision stack |
 
-## Merged upstream contributions
+## Selected upstream contributions
 
 | Project | Contribution |
 | --- | --- |
@@ -33,31 +41,29 @@ My current open-source work spans **Apache SeaTunnel, OpenTelemetry, Prefect/Das
 | [Great Expectations #12149](https://github.com/fivetran/great_expectations/pull/12149) | Validator type-checking improvements |
 | [EFF Rayhunter #1134](https://github.com/EFForg/rayhunter/pull/1134) | Exposed CLI help and default values in the installer GUI |
 
-## Active upstream work
+## Current systems work
 
-| Project | Contribution | State |
-| --- | --- | --- |
-| [Prefect #23024](https://github.com/PrefectHQ/prefect/pull/23024) | Fix Prefect task retention in shared Dask schedulers | **Active review / runtime regression work** |
-| [lakeFS #10525](https://github.com/treeverse/lakeFS/pull/10525) | Simplify Spark integration-test setup using shell and `lakectl` | **Active review** |
-| [lakeFS #10530](https://github.com/treeverse/lakeFS/pull/10530) | Remove WebUI login-config exhaustive-deps suppression | **Active review** |
-| [xAI SDK Python #205](https://github.com/xai-org/xai-sdk-python/pull/205) | Preserve explicit zero polling durations | **Active review** |
-
-### Current distributed-systems track
-
-I am also working through [Apache SeaTunnel Zeta #12118](https://github.com/apache/seatunnel/issues/12118), focused on bounding terminal-state notification delivery without dropping terminal events. The design space includes worker/master delivery semantics, bounded dispatch, retry/backoff, idempotency and failover-safe convergence.
+| Project | Problem |
+| --- | --- |
+| [Prefect #23024](https://github.com/PrefectHQ/prefect/pull/23024) | Reduce Prefect task retention in shared Dask schedulers |
+| [OpenTelemetry C++ #4541](https://github.com/open-telemetry/opentelemetry-cpp/pull/4541) | Make OTLP gRPC functional teardown deterministic |
+| [Grafana Tempo #7866](https://github.com/grafana/tempo/pull/7866) | Restore metadata intrinsic filtering in autocomplete |
+| [Apache SeaTunnel Zeta #12118](https://github.com/apache/seatunnel/issues/12118) | Bound terminal-state notification delivery without dropping terminal events |
+| [lakeFS #10525](https://github.com/treeverse/lakeFS/pull/10525) | Simplify Spark integration-test setup using shell and `lakectl` |
+| [xAI SDK Python #205](https://github.com/xai-org/xai-sdk-python/pull/205) | Preserve explicit zero polling durations |
 
 ## Flagship tools
 
 ### [impactctl](https://github.com/yigitcan-ozturk/impactctl) — change-impact intelligence
 
-**Know what your change can break — before you merge it.**
+**Know what your change can break before you merge it.**
 
 A deterministic CLI that turns Git diffs and explicit dependency manifests into explainable system-risk signals.
 
 - API contracts, database migrations, infrastructure, CI/CD and configuration signals
 - `CODEOWNERS`-aware ownership boundaries and review hints
 - service maps, OpenAPI / AsyncAPI relationships and downstream dependency paths
-- experimental enterprise/SAP dependency path
+- experimental enterprise / SAP dependency path
 - human-readable, JSON and GitHub-flavoured Markdown output
 
 [Repository](https://github.com/yigitcan-ozturk/impactctl) · [Releases](https://github.com/yigitcan-ozturk/impactctl/releases)
@@ -72,7 +78,7 @@ A deterministic engine for comparing engineering specifications with vendor bids
 - PDF, XLSX and explicitly scoped IFC evidence
 - JSON, CSV, Markdown, HTML and XLSX outputs
 - technical knockout, clarification and review workflows
-- evidence-provenance and supplier collaboration workflows
+- evidence provenance and supplier collaboration workflows
 
 [Repository](https://github.com/yigitcan-ozturk/bidlint) · [Releases](https://github.com/yigitcan-ozturk/bidlint/releases)
 
@@ -86,22 +92,22 @@ A deterministic engine for comparing engineering specifications with vendor bids
 | [vendor-risk-engine](https://github.com/yigitcan-ozturk/vendor-risk-engine) | Transparent supplier-risk scoring |
 | [payment-terms-parser](https://github.com/yigitcan-ozturk/payment-terms-parser) | Structured supplier payment-term interpretation |
 
-## Systems and enterprise background
+## Enterprise background
 
-Alongside software engineering, I bring long-running experience across **enterprise transformation, SAP architecture, integration, data governance, industrial operations and technical procurement**.
+I also bring long-running experience across **SAP architecture, enterprise transformation, integration, data governance, industrial operations and technical procurement**.
 
-Areas include:
+Relevant areas include S/4HANA & RISE, SAP MDG, BTP & Integration Suite, RFC/BAPI, IDoc, OData, REST/SOAP APIs, Clean Core, LeanIX, Signavio and architecture governance.
 
-- **S/4HANA & RISE architecture** — target state, readiness, migration/conversion, cutover and stabilisation
-- **SAP MDG & enterprise data** — Business Partner, supplier/vendor, customer and material governance
-- **BTP & integration architecture** — Integration Suite, Cloud Connector, RFC/BAPI, IDoc, OData, REST/SOAP APIs
-- **Architecture governance** — AS-IS / TO-BE, roadmaps, Clean Core, LeanIX, Signavio and transformation decision structures
-- **Engineering procurement intelligence** — specifications, supplier evidence, commercial inputs and auditable technical decisions
-
-This background informs the systems I build: software that makes complex engineering and enterprise workflows more **deterministic, inspectable and explainable**.
+That background informs the systems I build: software that makes complex technical and enterprise workflows more **deterministic, inspectable and explainable**.
 
 ## Engineering principles
 
 **Evidence before confidence · Deterministic where possible · Explicit uncertainty · Fail safely · Provenance by design**
 
-I prefer tools and systems that make reasoning visible, preserve evidence, degrade safely under uncertainty and can be tested against real operating conditions.
+I prefer systems that make reasoning visible, preserve evidence, degrade safely under uncertainty and can be tested against real operating conditions.
+
+## Work with me
+
+I am open to selected engagements involving **distributed systems, reliability, AI/data infrastructure, developer tooling, enterprise integration and engineering automation**.
+
+For collaboration, consulting or technical partnerships: **info@pamilanga.com**
