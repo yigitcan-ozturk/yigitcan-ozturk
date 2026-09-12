@@ -1,17 +1,42 @@
 # Yiğitcan Öztürk
 
-**Principal Systems & Enterprise Architect | Distributed Systems · Reliability · AI Infrastructure · Open Source**
+**Systems & Reliability Engineer | Autonomous Systems · Telemetry Forensics · Distributed Systems · Open Source**
 
-I solve complex systems problems where **runtime behavior, integration, reliability, data flow and engineering decisions** need to become deterministic, testable and explainable.
+I build systems that make complex technical failures **deterministic, inspectable and explainable**.
 
-My current open-source work spans **Apache SeaTunnel, OpenTelemetry, Prefect/Dask, Grafana Tempo, AIBrix/vLLM, lakeFS, Great Expectations, Gazebo, EFF Rayhunter and the xAI Python SDK**.
+My current flagship project is **[PAMIR](https://github.com/yigitcan-ozturk/pamir)** — an offline forensic engine for autonomous-system telemetry that reconstructs incident timelines and identifies **what failed first**, with timestamped evidence showing what happened next.
 
-**Available for selected contract, fractional and advisory engagements across the UK / EMEA and internationally.**
+> **PAMIR — Tell me what failed first. And prove it.**
 
 [LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · **info@pamilanga.com**
 
+## PAMIR — autonomous incident reconstruction
+
+**PX4 ULog → material root event → causal sequence → evidence**
+
+PAMIR v0.1 is a validated baseline focused on post-mission failure reconstruction rather than generic anomaly detection.
+
+| Validation signal | v0.1 result |
+| --- | --- |
+| **Public PX4 incident logs** | **5 / 5** identified with a material root event |
+| **Healthy / control logs** | **3 / 3** remained free of material root detections |
+| **Causal ordering** | Timestamp-based validation passed |
+| **Reproducibility** | SHA256-pinned public benchmark inputs |
+| **Operation** | Local / offline analysis |
+
+Current focus:
+
+- root-event detection
+- causal ordering
+- false-positive control
+- evidence-backed incident reconstruction
+- external validation against additional real-world telemetry
+
+**Repository:** [github.com/yigitcan-ozturk/pamir](https://github.com/yigitcan-ozturk/pamir)
+
 ## What I work on
 
+- Autonomous-system telemetry and incident forensics
 - Distributed systems reliability and runtime failure modes
 - Observability, telemetry and production diagnostics
 - AI / data infrastructure and orchestration
@@ -21,12 +46,14 @@ My current open-source work spans **Apache SeaTunnel, OpenTelemetry, Prefect/Das
 
 ## Open-source track record
 
+My open-source work spans **Apache SeaTunnel, OpenTelemetry, Prefect/Dask, Grafana Tempo, AIBrix/vLLM, lakeFS, Great Expectations, Gazebo, EFF Rayhunter and the xAI Python SDK**.
+
 | Signal | Evidence |
 | --- | --- |
 | **8 merged upstream PRs** | Accepted contributions across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations and EFF Rayhunter |
 | **3 Apache SeaTunnel merges** | Sentry, DataHub and Typesense connector validation improvements accepted into `dev` |
 | **Active systems work** | Prefect/Dask scheduler retention, OpenTelemetry gRPC teardown, Grafana Tempo filtering and SeaTunnel Zeta delivery semantics |
-| **Own tooling** | `impactctl`, `bidlint` and a deterministic procurement / engineering decision stack |
+| **Own tooling** | `PAMIR`, `impactctl`, `bidlint` and deterministic engineering decision tooling |
 
 ## Selected upstream contributions
 
@@ -108,6 +135,6 @@ I prefer systems that make reasoning visible, preserve evidence, degrade safely 
 
 ## Work with me
 
-I am open to selected engagements involving **distributed systems, reliability, AI/data infrastructure, developer tooling, enterprise integration and engineering automation**.
+I am open to selected collaborations involving **autonomous-system reliability, telemetry forensics, distributed systems, AI/data infrastructure, developer tooling and engineering automation**.
 
-For collaboration, consulting or technical partnerships: **info@pamilanga.com**
+For technical partnerships, external validation or collaboration: **info@pamilanga.com**
