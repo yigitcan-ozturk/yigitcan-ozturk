@@ -10,9 +10,9 @@ I build systems that make complex technical failures **deterministic, inspectabl
 | --- | --- |
 | **Flagship** | **[PAMIR](https://github.com/yigitcan-ozturk/pamir)** — offline PX4 telemetry forensics and incident reconstruction |
 | **Validated baseline** | PAMIR v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
-| **Upstream track record** | **10 merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations and EFF Rayhunter · **Apache SeaTunnel: 5 merged upstream PRs** |
+| **Upstream track record** | **11 merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations and EFF Rayhunter · **Apache SeaTunnel: 5 merged upstream PRs** |
 | **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.1.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
-| **Current systems work** | Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, Apache SeaTunnel Zeta, lakeFS, xAI SDK |
+| **Current systems work** | Prefect/Dask, OpenTelemetry gRPC, Great Expectations, Grafana Tempo, Apache SeaTunnel Zeta, lakeFS, xAI SDK |
 
 > **PAMIR — Tell me what failed first. And prove it.**
 
@@ -54,6 +54,7 @@ Current direction: external validation against additional public PX4 ULogs and r
 | [AIBrix / vLLM #2669](https://github.com/vllm-project/aibrix/pull/2669) | Stabilised KVCache pod-triggered reconciliation integration tests |
 | [AIBrix / vLLM #2652](https://github.com/vllm-project/aibrix/pull/2652) | Added RayClusterFleet integration test coverage |
 | [Great Expectations #12149](https://github.com/fivetran/great_expectations/pull/12149) | Validator type-checking improvements |
+| [EFF Rayhunter #1146](https://github.com/EFForg/rayhunter/pull/1146) | Reject oversized Wingtech admin passwords safely with regression coverage |
 | [EFF Rayhunter #1134](https://github.com/EFForg/rayhunter/pull/1134) | Exposed CLI help and default values in the installer GUI |
 
 ## Current systems work
@@ -61,7 +62,9 @@ Current direction: external validation against additional public PX4 ULogs and r
 | Project | Problem |
 | --- | --- |
 | [Prefect #23024](https://github.com/PrefectHQ/prefect/pull/23024) | Reduce Prefect task retention in shared Dask schedulers |
+| [OpenTelemetry C++ #4561](https://github.com/open-telemetry/opentelemetry-cpp/pull/4561) | Document nlohmann-json dependency maintenance |
 | [OpenTelemetry C++ #4541](https://github.com/open-telemetry/opentelemetry-cpp/pull/4541) | Make OTLP gRPC functional teardown deterministic |
+| [Great Expectations #12184](https://github.com/fivetran/great_expectations/pull/12184) | Bring metric repository tests fully under mypy with focused typing cleanup |
 | [Grafana Tempo #7866](https://github.com/grafana/tempo/pull/7866) | Restore metadata intrinsic filtering in autocomplete |
 | [Apache SeaTunnel Zeta #12118](https://github.com/apache/seatunnel/issues/12118) | Bound terminal-state notification delivery without dropping terminal events |
 | [lakeFS #10525](https://github.com/treeverse/lakeFS/pull/10525) | Simplify Spark integration-test setup using shell and `lakectl` |
