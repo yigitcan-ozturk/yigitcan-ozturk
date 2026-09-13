@@ -10,7 +10,7 @@ I build systems that make complex technical failures **deterministic, inspectabl
 | --- | --- |
 | **Flagship** | **[PAMIR](https://github.com/yigitcan-ozturk/pamir)** — offline PX4 telemetry forensics and incident reconstruction |
 | **Validated baseline** | PAMIR v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
-| **Upstream track record** | **9 merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations and EFF Rayhunter |
+| **Upstream track record** | **10 merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations and EFF Rayhunter · **Apache SeaTunnel: 5 merged upstream PRs** |
 | **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.1.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
 | **Current systems work** | Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, Apache SeaTunnel Zeta, lakeFS, xAI SDK |
 
@@ -45,6 +45,7 @@ Current direction: external validation against additional public PX4 ULogs and r
 
 | Project | Contribution |
 | --- | --- |
+| [Apache SeaTunnel #12274](https://github.com/apache/seatunnel/pull/12274) | S3 Redshift declarative validation for required JDBC options with focused regression coverage |
 | [Apache SeaTunnel #12272](https://github.com/apache/seatunnel/pull/12272) | BigQuery declarative validation with nonblank identifiers, write-mode validation and regression coverage |
 | [Apache SeaTunnel #12175](https://github.com/apache/seatunnel/pull/12175) | Typesense source/sink connection validation with regression coverage |
 | [Apache SeaTunnel #12174](https://github.com/apache/seatunnel/pull/12174) | Nonblank validation for DataHub sink connection options |
