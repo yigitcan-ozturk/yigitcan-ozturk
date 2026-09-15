@@ -9,14 +9,16 @@ I build systems that make complex technical failures **deterministic, inspectabl
 | Signal | Evidence |
 | --- | --- |
 | **Flagship** | **[PAMIR](https://github.com/yigitcan-ozturk/pamir)** — offline PX4 telemetry forensics and incident reconstruction |
+| **Counter-UAS research** | **[PAMIR-CUAS](https://cuas.pamilanga.com/)** — vendor-neutral, post-test validation and incident reconstruction research prototype |
 | **Validated baseline** | PAMIR v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
+| **CUAS public evidence** | Synthetic CUAS-001 stale-evidence and CUAS-002 sensor-disagreement cases are automated-test-backed |
 | **Upstream track record** | **13 merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and ROS 2 ecosystem projects · **Apache SeaTunnel: 5 merged upstream PRs** |
 | **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.1.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
 | **Current systems work** | Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, Apache SeaTunnel Zeta, lakeFS, xAI SDK |
 
 > **PAMIR — Tell me what failed first. And prove it.**
 
-[LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · **info@pamilanga.com**
+[LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · [PAMIR-CUAS](https://cuas.pamilanga.com/) · **info@pamilanga.com**
 
 ---
 
@@ -38,6 +40,34 @@ PAMIR is an offline forensic analysis engine for autonomous-system telemetry. It
 **Repository:** [github.com/yigitcan-ozturk/pamir](https://github.com/yigitcan-ozturk/pamir)
 
 Current direction: external validation against additional public PX4 ULogs and real-world telemetry, methodology review, and evidence-backed incident cases.
+
+---
+
+## PAMIR-CUAS — evidence-grade Counter-UAS validation research
+
+**Sensor / C2 evidence → temporal integrity → evidence graph → counterfactual replay → causal finding**
+
+PAMIR-CUAS is a **research prototype** for vendor-neutral, post-test Counter-UAS validation and incident reconstruction. Given normalized sensor/C2 observations and independent ground truth, it reconstructs evidence lineage and tests whether timing faults, stale evidence, sensor disagreement, association or confidence transformation materially contributed to an incorrect outcome.
+
+Current public prototype capabilities include:
+
+- **Causal Evidence Graph** — trace observations, associations, transformations, fusion decisions and replay results through an inspectable evidence chain.
+- **Temporal Integrity analysis** — identify stale, out-of-order and clock-offset evidence conditions.
+- **Sensor disagreement analysis** — surface materially disagreeing observations for reconstruction.
+- **Counterfactual Replay** — safely exclude or correct evidence offline and test whether the reconstructed outcome changes.
+- **Causal attribution reporting** — distinguish evidence that materially changes an outcome from evidence that is merely correlated with it.
+
+| Public synthetic case | Test-backed result |
+| --- | --- |
+| **CUAS-001** | Stale RF evidence reproduced a false-positive path; excluding the stale evidence changed the reconstructed outcome |
+| **CUAS-002** | Sensor disagreement reproduced a false-positive path; excluding the disagreeing observation changed the reconstructed outcome |
+
+These are **synthetic, automated-test-backed research results**. They are not claims of field validation, operational deployment, SSB approval or HARDKILL integration.
+
+PAMIR-CUAS is validation infrastructure. It does **not** perform target selection, weapon control, engagement decisions, interceptor guidance, firing solutions or effector optimization.
+
+**Technical portal:** [cuas.pamilanga.com](https://cuas.pamilanga.com/)  
+**Technical / integration enquiries:** **cuas@pamilanga.com**
 
 ---
 
@@ -118,6 +148,7 @@ A deterministic engine for comparing engineering specifications with vendor bids
 ## Engineering focus
 
 - Autonomous-system telemetry and incident forensics
+- Counter-UAS validation and post-test incident reconstruction
 - Distributed systems reliability and runtime failure modes
 - Observability, telemetry and production diagnostics
 - AI / data infrastructure and orchestration
@@ -139,6 +170,7 @@ Relevant areas include S/4HANA & RISE, SAP MDG, BTP & Integration Suite, RFC/BAP
 
 ## Work with me
 
-I am open to selected collaborations involving **autonomous-system reliability, telemetry forensics, distributed systems, AI/data infrastructure, developer tooling and engineering automation**.
+I am open to selected collaborations involving **autonomous-system reliability, Counter-UAS validation, telemetry forensics, distributed systems, AI/data infrastructure, developer tooling and engineering automation**.
 
-For technical partnerships, external validation or collaboration: **info@pamilanga.com**
+For general technical partnerships, external validation or collaboration: **info@pamilanga.com**  
+For PAMIR-CUAS technical evaluation and integration dialogue: **cuas@pamilanga.com**
