@@ -1,8 +1,8 @@
 # Yiğitcan Öztürk
 
-**Systems & Reliability Engineer | Autonomous Systems · Telemetry Forensics · Distributed Systems · Open Source**
+**Systems & Reliability Engineer | Autonomous Systems · Evidence & Assurance · Telemetry Forensics · Open Source**
 
-I build systems that make complex technical failures **deterministic, inspectable and explainable**.
+I build **evidence and assurance infrastructure for autonomous systems** — making complex technical behaviour deterministic, inspectable, explainable and reproducible.
 
 ## Proof at a glance
 
@@ -10,13 +10,15 @@ I build systems that make complex technical failures **deterministic, inspectabl
 | --- | --- |
 | **Flagship** | **[PAMIR](https://github.com/yigitcan-ozturk/pamir)** — offline PX4 telemetry forensics and incident reconstruction |
 | **Counter-UAS research** | **[PAMIR-CUAS](https://cuas.pamilanga.com/)** — vendor-neutral, post-test validation and incident reconstruction research prototype |
+| **Autonomous defence R&D** | **PAMIR ARGUS** — evidence & assurance infrastructure for autonomous defence systems; v0.1 development lane |
 | **Validated baseline** | PAMIR v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
 | **CUAS public evidence** | Synthetic CUAS-001 stale-evidence and CUAS-002 sensor-disagreement cases are automated-test-backed |
 | **Upstream track record** | **13 merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and ROS 2 ecosystem projects · **Apache SeaTunnel: 5 merged upstream PRs** |
 | **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.1.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
 | **Current systems work** | Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, Apache SeaTunnel Zeta, lakeFS, xAI SDK |
 
-> **PAMIR — Tell me what failed first. And prove it.**
+> **PAMIR — Tell me what failed first. And prove it.**  
+> **ARGUS — Every autonomous decision should be reconstructable, explainable and reproducible as evidence.**
 
 [LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · [PAMIR-CUAS](https://cuas.pamilanga.com/) · **info@pamilanga.com**
 
@@ -68,6 +70,24 @@ PAMIR-CUAS is validation infrastructure. It does **not** perform target selectio
 
 **Technical portal:** [cuas.pamilanga.com](https://cuas.pamilanga.com/)  
 **Technical / integration enquiries:** **cuas@pamilanga.com**
+
+---
+
+## PAMIR ARGUS — evidence & assurance infrastructure for autonomous defence systems
+
+**Observation → provenance → fusion → decision → first divergence → causal evidence → reproducible replay**
+
+PAMIR ARGUS is a separate R&D lane extending the PAMIR evidence philosophy toward assurance of autonomous defence-system decision chains.
+
+Its core objective is simple:
+
+> **Every autonomous decision should be reconstructable, explainable and reproducible as evidence.**
+
+ARGUS v0.1 focuses on an inspectable synthetic **Radar + EO + RF → Tracker → Fusion → Decision** chain and the evidence required to reconstruct how a system reached a decision, where the first meaningful divergence occurred, what evidence supports the reconstruction, and what remains uncertain.
+
+The project is currently under development. It is **not presented as field-validated, operationally deployed, certified, or integrated into any defence platform**.
+
+ARGUS is an evidence and assurance layer. It does **not** perform weapon control, target engagement, interceptor guidance or firing-solution generation.
 
 ---
 
@@ -149,6 +169,7 @@ A deterministic engine for comparing engineering specifications with vendor bids
 
 - Autonomous-system telemetry and incident forensics
 - Counter-UAS validation and post-test incident reconstruction
+- Evidence & assurance infrastructure for autonomous-system decision chains
 - Distributed systems reliability and runtime failure modes
 - Observability, telemetry and production diagnostics
 - AI / data infrastructure and orchestration
@@ -170,7 +191,7 @@ Relevant areas include S/4HANA & RISE, SAP MDG, BTP & Integration Suite, RFC/BAP
 
 ## Work with me
 
-I am open to selected collaborations involving **autonomous-system reliability, Counter-UAS validation, telemetry forensics, distributed systems, AI/data infrastructure, developer tooling and engineering automation**.
+I am open to selected collaborations involving **autonomous-system reliability, evidence & assurance, Counter-UAS validation, telemetry forensics, distributed systems, AI/data infrastructure, developer tooling and engineering automation**.
 
 For general technical partnerships, external validation or collaboration: **info@pamilanga.com**  
 For PAMIR-CUAS technical evaluation and integration dialogue: **cuas@pamilanga.com**
