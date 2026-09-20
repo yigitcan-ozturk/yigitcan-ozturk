@@ -1,6 +1,6 @@
 # Yiğitcan Öztürk
 
-**Systems & Reliability Engineer | Autonomous Systems · Evidence & Assurance · Telemetry Forensics · Open Source**
+**Systems & Reliability Engineer | AI & Distributed Infrastructure · Autonomous Systems · Evidence & Assurance · Open Source**
 
 I build **evidence and assurance infrastructure for autonomous systems** — making complex technical behaviour deterministic, inspectable, explainable and reproducible.
 
@@ -13,9 +13,9 @@ I build **evidence and assurance infrastructure for autonomous systems** — mak
 | **Autonomous defence R&D** | **PAMIR ARGUS** — evidence & assurance infrastructure for autonomous defence systems; v0.1 development lane |
 | **Validated baseline** | PAMIR v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
 | **CUAS public evidence** | Synthetic CUAS-001 stale-evidence and CUAS-002 sensor-disagreement cases are automated-test-backed |
-| **Upstream track record** | **13 merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and ROS 2 ecosystem projects · **Apache SeaTunnel: 5 merged upstream PRs** |
+| **Upstream track record** | **13 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 5 merged upstream PRs** |
 | **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.1.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
-| **Current systems work** | Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, Apache SeaTunnel Zeta, lakeFS, xAI SDK |
+| **Current upstream work** | **vLLM Semantic Router**, **Polars**, Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, lakeFS and xAI SDK |
 
 > **PAMIR — Tell me what failed first. And prove it.**  
 > **ARGUS — Every autonomous decision should be reconstructable, explainable and reproducible as evidence.**
@@ -109,17 +109,24 @@ ARGUS is an evidence and assurance layer. It does **not** perform weapon control
 | [EFF Rayhunter #1134](https://github.com/EFForg/rayhunter/pull/1134) | Exposed CLI help and default values in the installer GUI |
 | [ros2_lingua #20](https://github.com/purahan/ros2_lingua/pull/20) | Completed regression coverage for all `lingua::Tags` constants and kept C++ bindings aligned with Python schema tags |
 
-## Current systems work
+## Current upstream work
 
-| Project | Problem |
+Active contributions are concentrated on **AI/distributed infrastructure, data systems, observability and runtime correctness**.
+
+| Project | Current contribution |
 | --- | --- |
+| [vLLM Semantic Router #3909](https://github.com/vllm-project/semantic-router/pull/3909) | Share Go 1.25 setup across PR workflows, with workflow-contract coverage and multi-module cache correctness |
+| [Polars #29404](https://github.com/pola-rs/polars/pull/29404) | Fix non-equivalent rolling offset/period handling with focused regression coverage |
 | [Prefect #23024](https://github.com/PrefectHQ/prefect/pull/23024) | Reduce Prefect task retention in shared Dask schedulers |
-| [OpenTelemetry C++ #4561](https://github.com/open-telemetry/opentelemetry-cpp/pull/4561) | Document nlohmann-json dependency maintenance |
 | [OpenTelemetry C++ #4541](https://github.com/open-telemetry/opentelemetry-cpp/pull/4541) | Make OTLP gRPC functional teardown deterministic |
 | [Grafana Tempo #7866](https://github.com/grafana/tempo/pull/7866) | Restore metadata intrinsic filtering in autocomplete |
-| [Apache SeaTunnel Zeta #12118](https://github.com/apache/seatunnel/issues/12118) | Bound terminal-state notification delivery without dropping terminal events |
+| [lakeFS #10530](https://github.com/treeverse/lakeFS/pull/10530) | Remove an exhaustive-deps suppression from Web UI login configuration |
 | [lakeFS #10525](https://github.com/treeverse/lakeFS/pull/10525) | Simplify Spark integration-test setup using shell and `lakectl` |
 | [xAI SDK Python #205](https://github.com/xai-org/xai-sdk-python/pull/205) | Preserve explicit zero polling durations |
+
+### Upstream direction
+
+I am deliberately going deeper on problems where **correctness, reliability and infrastructure meet**: routing and CI contracts in the vLLM ecosystem, execution/runtime behaviour, telemetry and observability, data-engine correctness, and deterministic failure analysis. I prefer focused changes with regression evidence over high-volume contribution counts.
 
 ---
 
@@ -172,7 +179,7 @@ A deterministic engine for comparing engineering specifications with vendor bids
 - Evidence & assurance infrastructure for autonomous-system decision chains
 - Distributed systems reliability and runtime failure modes
 - Observability, telemetry and production diagnostics
-- AI / data infrastructure and orchestration
+- AI / distributed infrastructure, routing and orchestration
 - Developer tooling and change-impact analysis
 - Engineering procurement and auditable technical decision systems
 - Enterprise integration and architecture
@@ -191,7 +198,7 @@ Relevant areas include S/4HANA & RISE, SAP MDG, BTP & Integration Suite, RFC/BAP
 
 ## Work with me
 
-I am open to selected collaborations involving **autonomous-system reliability, evidence & assurance, Counter-UAS validation, telemetry forensics, distributed systems, AI/data infrastructure, developer tooling and engineering automation**.
+I am open to selected collaborations involving **AI/distributed infrastructure, autonomous-system reliability, evidence & assurance, telemetry forensics, observability, developer tooling and engineering automation**.
 
 For general technical partnerships, external validation or collaboration: **info@pamilanga.com**  
 For PAMIR-CUAS technical evaluation and integration dialogue: **cuas@pamilanga.com**
