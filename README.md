@@ -13,7 +13,7 @@ I build **evidence and assurance infrastructure for autonomous systems** — mak
 | **Autonomous defence R&D** | **PAMIR ARGUS** — evidence & assurance infrastructure for autonomous defence systems; v0.1 development lane |\n| **Wildfire assurance** | **PAMIR IGNIS** — wildfire evidence & assurance infrastructure; v0.1 Engineering RC, public IGNITE sample DATASET-VALIDATED |
 | **Validated baseline** | PAMIR v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
 | **CUAS public evidence** | Synthetic CUAS-001 stale-evidence and CUAS-002 sensor-disagreement cases are automated-test-backed |
-| **Upstream track record** | **13 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 5 merged upstream PRs** |
+| **Upstream track record** | **14 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 5 merged upstream PRs** |
 | **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.1.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
 | **Current upstream work** | **vLLM Semantic Router**, **Polars**, Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, lakeFS and xAI SDK |
 
@@ -108,6 +108,7 @@ ARGUS is an evidence and assurance layer. It does **not** perform weapon control
 | [EFF Rayhunter #1146](https://github.com/EFForg/rayhunter/pull/1146) | Reject oversized Wingtech admin passwords safely with regression coverage |
 | [EFF Rayhunter #1134](https://github.com/EFForg/rayhunter/pull/1134) | Exposed CLI help and default values in the installer GUI |
 | [ros2_lingua #20](https://github.com/purahan/ros2_lingua/pull/20) | Completed regression coverage for all `lingua::Tags` constants and kept C++ bindings aligned with Python schema tags |
+| [ros2_lingua #21](https://github.com/purahan/ros2_lingua/pull/21) | Normalized ROS 2 CLI namespace paths; maintainer-tested across namespace variants and merged to close #9 |
 
 ## Current upstream work
 
@@ -115,12 +116,12 @@ Active contributions are concentrated on **AI/distributed infrastructure, data s
 
 | Project | Current contribution |
 | --- | --- |
+| [vLLM Router #297](https://github.com/vllm-project/router/pull/297) | Add request-scoped preprocessing context for zero-copy reuse of prepared token IDs across routing decisions |
 | [vLLM Semantic Router #3909](https://github.com/vllm-project/semantic-router/pull/3909) | Share Go 1.25 setup across PR workflows, with workflow-contract coverage and multi-module cache correctness |
 | [Polars #29404](https://github.com/pola-rs/polars/pull/29404) | Fix non-equivalent rolling offset/period handling with focused regression coverage |
 | [Prefect #23024](https://github.com/PrefectHQ/prefect/pull/23024) | Reduce Prefect task retention in shared Dask schedulers |
 | [OpenTelemetry C++ #4541](https://github.com/open-telemetry/opentelemetry-cpp/pull/4541) | Make OTLP gRPC functional teardown deterministic |
 | [Grafana Tempo #7866](https://github.com/grafana/tempo/pull/7866) | Restore metadata intrinsic filtering in autocomplete |
-| [lakeFS #10530](https://github.com/treeverse/lakeFS/pull/10530) | Remove an exhaustive-deps suppression from Web UI login configuration |
 | [lakeFS #10525](https://github.com/treeverse/lakeFS/pull/10525) | Simplify Spark integration-test setup using shell and `lakectl` |
 | [xAI SDK Python #205](https://github.com/xai-org/xai-sdk-python/pull/205) | Preserve explicit zero polling durations |
 
