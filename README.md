@@ -10,15 +10,17 @@ I build **evidence and assurance infrastructure for autonomous systems** — mak
 | --- | --- |
 | **Flagship** | **[PAMIR](https://github.com/yigitcan-ozturk/pamir)** — offline PX4 telemetry forensics and incident reconstruction |
 | **Counter-UAS research** | **[PAMIR-CUAS](https://cuas.pamilanga.com/)** — vendor-neutral, post-test validation and incident reconstruction research prototype |
-| **Autonomous defence R&D** | **PAMIR ARGUS** — evidence & assurance infrastructure for autonomous defence systems; v0.1 development lane |\n| **Wildfire assurance** | **PAMIR IGNIS** — wildfire evidence & assurance infrastructure; v0.1 Engineering RC, public IGNITE sample DATASET-VALIDATED |
+| **Autonomous defence R&D** | **PAMIR ARGUS** — evidence & assurance infrastructure for autonomous defence systems; v0.1 development lane | 
+| **Wildfire assurance** | **PAMIR IGNIS** — wildfire evidence & assurance infrastructure; v0.1 Engineering RC, public IGNITE sample DATASET-VALIDATED |
 | **Validated baseline** | PAMIR v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
 | **CUAS public evidence** | Synthetic CUAS-001 stale-evidence and CUAS-002 sensor-disagreement cases are automated-test-backed |
-| **Upstream track record** | **14 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 5 merged upstream PRs** |
+| **Upstream track record** | **15 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 6 merged upstream PRs** |
 | **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.1.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
 | **Current upstream work** | **vLLM Semantic Router**, **Polars**, Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, lakeFS and xAI SDK |
 
 > **PAMIR — Tell me what failed first. And prove it.**  
-> **ARGUS — Every autonomous decision should be reconstructable, explainable and reproducible as evidence.**  \n> **IGNIS — Every wildfire alert should leave a reconstructable evidence chain.**
+> **ARGUS — Every autonomous decision should be reconstructable, explainable and reproducible as evidence.**    
+> **IGNIS — Every wildfire alert should leave a reconstructable evidence chain.**
 
 [LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · [PAMIR-CUAS](https://cuas.pamilanga.com/) · **info@pamilanga.com**
 
@@ -95,6 +97,7 @@ ARGUS is an evidence and assurance layer. It does **not** perform weapon control
 
 | Project | Contribution |
 | --- | --- |
+| [Apache SeaTunnel #12490](https://github.com/apache/seatunnel/pull/12490) | TDengine declarative required-option validation, focused regression tests and bilingual documentation; approved by two reviewers and merged into `dev` |
 | [Apache SeaTunnel #12274](https://github.com/apache/seatunnel/pull/12274) | S3 Redshift declarative validation for required JDBC options with focused regression coverage |
 | [Apache SeaTunnel #12272](https://github.com/apache/seatunnel/pull/12272) | BigQuery declarative validation with nonblank identifiers, write-mode validation and regression coverage |
 | [Apache SeaTunnel #12175](https://github.com/apache/seatunnel/pull/12175) | Typesense source/sink connection validation with regression coverage |
@@ -177,7 +180,8 @@ A deterministic engine for comparing engineering specifications with vendor bids
 
 - Autonomous-system telemetry and incident forensics
 - Counter-UAS validation and post-test incident reconstruction
-- Evidence & assurance infrastructure for autonomous-system decision chains\n- Wildfire evidence reconstruction, provenance and deterministic assurance
+- Evidence & assurance infrastructure for autonomous-system decision chains 
+- Wildfire evidence reconstruction, provenance and deterministic assurance
 - Distributed systems reliability and runtime failure modes
 - Observability, telemetry and production diagnostics
 - AI / distributed infrastructure, routing and orchestration
