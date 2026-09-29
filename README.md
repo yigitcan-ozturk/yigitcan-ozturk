@@ -15,7 +15,7 @@ I build **evidence and assurance infrastructure for autonomous systems** — mak
 | **Validated baseline** | PAMIR v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
 | **CUAS public evidence** | Synthetic CUAS-001 stale-evidence and CUAS-002 sensor-disagreement cases are automated-test-backed |
 | **Upstream track record** | **15 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 6 merged upstream PRs** |
-| **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.1.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
+| **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.2.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
 | **Current upstream work** | **vLLM Semantic Router**, **Polars**, Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, lakeFS and xAI SDK |
 
 > **PAMIR — Tell me what failed first. And prove it.**  
