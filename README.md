@@ -23,7 +23,7 @@ Three focused engineering lanes, backed by public code, reproducible evidence an
 | Signal | Evidence |
 | --- | --- |
 | **Validated PAMIR baseline** | v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
-| **Upstream track record** | **15 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 6 merged upstream PRs** |
+| **Upstream track record** | **16 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 7 merged upstream PRs** |
 | **Public developer tooling** | **impactctl v0.2.0** · deterministic change-impact intelligence |
 | **Engineering decision tooling** | **bidlint v1.1.0** · stable release, production-adoption gate and approved sanitized pilot |
 | **Current upstream work** | **vLLM Semantic Router**, **Polars**, Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, lakeFS and xAI SDK |
@@ -107,6 +107,7 @@ ARGUS is an evidence and assurance layer. It does **not** perform weapon control
 
 | Project | Contribution |
 | --- | --- |
+| [Apache SeaTunnel #12519](https://github.com/apache/seatunnel/pull/12519) | RabbitMQ Sink `queue_name` declarative nonblank validation with focused factory regression coverage and bilingual documentation; approved by two reviewers and merged into `dev` |
 | [Apache SeaTunnel #12490](https://github.com/apache/seatunnel/pull/12490) | TDengine declarative required-option validation, focused regression tests and bilingual documentation; approved by two reviewers and merged into `dev` |
 | [Apache SeaTunnel #12274](https://github.com/apache/seatunnel/pull/12274) | S3 Redshift declarative validation for required JDBC options with focused regression coverage |
 | [Apache SeaTunnel #12272](https://github.com/apache/seatunnel/pull/12272) | BigQuery declarative validation with nonblank identifiers, write-mode validation and regression coverage |
