@@ -16,7 +16,7 @@ Three focused engineering lanes, backed by public code, reproducible evidence an
 | --- | --- | --- |
 | **Systems & Reliability** | **[PAMIR](https://github.com/yigitcan-ozturk/pamir)** | Autonomous-system telemetry forensics, incident reconstruction and evidence-backed failure analysis |
 | **Developer Infrastructure** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl) v0.2.0** | Deterministic change-impact intelligence across code, contracts, dependencies and ownership boundaries |
-| **Engineering Decision Infrastructure** | **[bidlint](https://github.com/yigitcan-ozturk/bidlint) v1.1.0** | Evidence-first technical bid compliance with provenance, explicit uncertainty and production-adoption gates |
+| **Engineering Decision Infrastructure** | **[bidlint](https://github.com/yigitcan-ozturk/bidlint) v1.2.1** | Evidence-first technical bid compliance with provenance, supplier clarification workflows and fail-closed external-pilot gates |
 
 ## Proof at a glance
 
@@ -25,7 +25,7 @@ Three focused engineering lanes, backed by public code, reproducible evidence an
 | **Validated PAMIR baseline** | v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
 | **Upstream track record** | **16 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 7 merged upstream PRs** |
 | **Public developer tooling** | **impactctl v0.2.0** · deterministic change-impact intelligence |
-| **Engineering decision tooling** | **bidlint v1.1.0** · stable release, production-adoption gate and approved sanitized pilot |
+| **Engineering decision tooling** | **bidlint v1.2.1** · stable release, real external supplier workflow and provenance-preserving compatibility validation |
 | **Current upstream work** | **vLLM Semantic Router**, **Polars**, Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, lakeFS and xAI SDK |
 | **Applied assurance R&D** | PAMIR-CUAS · PAMIR ARGUS · PAMIR IGNIS |
 
@@ -170,8 +170,10 @@ A deterministic engine for comparing engineering specifications with vendor bids
 - `PASS / DEVIATION / MISSING / REVIEW` findings
 - PDF, XLSX and explicitly scoped IFC evidence
 - JSON, CSV, Markdown, HTML and XLSX outputs
-- production-adoption release gate and approved sanitized pilot
-- stable v1.1.0 release
+- offline/private-first supplier clarification intake, buyer review, evidence assessment and immutable revision history
+- exact supplier-response byte provenance with fail-closed readiness and portal-scope gates
+- real external supplier workflow exercised; v1.2.1 fixes a compatibility gap found by that live return without publishing confidential supplier data
+- stable v1.2.1 release
 
 [Repository](https://github.com/yigitcan-ozturk/bidlint) · [Releases](https://github.com/yigitcan-ozturk/bidlint/releases)
 
