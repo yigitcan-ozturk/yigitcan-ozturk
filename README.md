@@ -1,8 +1,12 @@
 # Yiğitcan Öztürk
 
-**Systems & Reliability Engineer | AI & Distributed Infrastructure · Autonomous Systems · Evidence & Assurance · Open Source**
+**Systems & Reliability Engineer | Distributed Systems · Data Infrastructure · AI Infrastructure · Open Source**
 
-I build **evidence and assurance infrastructure for autonomous systems** — making complex technical behaviour deterministic, inspectable, explainable and reproducible.
+I work on **reliability and correctness problems across distributed systems, data infrastructure and AI infrastructure** — backed by upstream contributions to projects including Apache SeaTunnel, vLLM, OpenTelemetry and Prefect.
+
+> **Available for selected contract engineering & consulting engagements**  
+> Distributed systems reliability · Apache SeaTunnel integrations · connector engineering · production debugging · observability · AI infrastructure  
+> **Contract / consulting:** info@pamilanga.com
 
 ## Engineering portfolio
 
@@ -209,7 +213,17 @@ Relevant areas include S/4HANA & RISE, SAP MDG, BTP & Integration Suite, RFC/BAP
 
 ## Work with me
 
-I am open to selected collaborations involving **AI/distributed infrastructure, autonomous-system reliability, evidence & assurance, telemetry forensics, observability, developer tooling and engineering automation**.
+I am available for selected **contract engineering, consulting and technical collaboration** engagements where reliability, correctness and integration quality matter.
 
-For general technical partnerships, external validation or collaboration: **info@pamilanga.com**  
-For PAMIR-CUAS technical evaluation and integration dialogue: **cuas@pamilanga.com**\nFor PAMIR IGNIS independent evaluation / pilot dialogue: **info@pamilanga.com**
+Typical engagements include:
+
+- **Apache SeaTunnel & data integration** — connector development, validation, integration troubleshooting and focused upstream-compatible fixes
+- **Distributed systems reliability** — failure analysis, runtime correctness, concurrency/lifecycle issues and regression engineering
+- **AI infrastructure** — routing, orchestration, request-path reliability and production-focused infrastructure work
+- **Observability & telemetry** — instrumentation, diagnostics, failure reconstruction and evidence-driven debugging
+- **Developer infrastructure** — CI reliability, change-impact analysis, engineering automation and integration tooling
+- **Technical architecture** — system boundaries, integration architecture and reliability-focused design review
+
+**Contract / consulting enquiries:** **info@pamilanga.com**  
+PAMIR-CUAS technical evaluation and integration: **cuas@pamilanga.com**  
+PAMIR IGNIS independent evaluation / pilot dialogue: **info@pamilanga.com**
