@@ -4,23 +4,29 @@
 
 I build **evidence and assurance infrastructure for autonomous systems** — making complex technical behaviour deterministic, inspectable, explainable and reproducible.
 
+## Engineering portfolio
+
+Three focused engineering lanes, backed by public code, reproducible evidence and upstream review.
+
+| Lane | Flagship | What it demonstrates |
+| --- | --- | --- |
+| **Systems & Reliability** | **[PAMIR](https://github.com/yigitcan-ozturk/pamir)** | Autonomous-system telemetry forensics, incident reconstruction and evidence-backed failure analysis |
+| **Developer Infrastructure** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl) v0.2.0** | Deterministic change-impact intelligence across code, contracts, dependencies and ownership boundaries |
+| **Engineering Decision Infrastructure** | **[bidlint](https://github.com/yigitcan-ozturk/bidlint) v1.1.0** | Evidence-first technical bid compliance with provenance, explicit uncertainty and production-adoption gates |
+
 ## Proof at a glance
 
 | Signal | Evidence |
 | --- | --- |
-| **Flagship** | **[PAMIR](https://github.com/yigitcan-ozturk/pamir)** — offline PX4 telemetry forensics and incident reconstruction |
-| **Counter-UAS research** | **[PAMIR-CUAS](https://cuas.pamilanga.com/)** — vendor-neutral, post-test validation and incident reconstruction research prototype |
-| **Autonomous defence R&D** | **PAMIR ARGUS** — evidence & assurance infrastructure for autonomous defence systems; v0.1 development lane | 
-| **Wildfire assurance** | **PAMIR IGNIS** — wildfire evidence & assurance infrastructure; v0.1 Engineering RC, public IGNITE sample DATASET-VALIDATED |
-| **Validated baseline** | PAMIR v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
-| **CUAS public evidence** | Synthetic CUAS-001 stale-evidence and CUAS-002 sensor-disagreement cases are automated-test-backed |
+| **Validated PAMIR baseline** | v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
 | **Upstream track record** | **15 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 6 merged upstream PRs** |
-| **Public developer tooling** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl)** v0.2.0 · **[bidlint](https://github.com/yigitcan-ozturk/bidlint)** v1.1.0 |
+| **Public developer tooling** | **impactctl v0.2.0** · deterministic change-impact intelligence |
+| **Engineering decision tooling** | **bidlint v1.1.0** · stable release, production-adoption gate and approved sanitized pilot |
 | **Current upstream work** | **vLLM Semantic Router**, **Polars**, Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, lakeFS and xAI SDK |
+| **Applied assurance R&D** | PAMIR-CUAS · PAMIR ARGUS · PAMIR IGNIS |
 
 > **PAMIR — Tell me what failed first. And prove it.**  
-> **ARGUS — Every autonomous decision should be reconstructable, explainable and reproducible as evidence.**    
-> **IGNIS — Every wildfire alert should leave a reconstructable evidence chain.**
+> **Engineering principle — Evidence before confidence.**
 
 [LinkedIn](https://www.linkedin.com/in/yigitcan-ozturk-7920213a3/) · [PAMILANGA](https://www.pamilanga.com) · [PAMIR-CUAS](https://cuas.pamilanga.com/) · **info@pamilanga.com**
 
