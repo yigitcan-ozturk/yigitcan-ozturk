@@ -23,7 +23,7 @@ Three focused engineering lanes, backed by public code, reproducible evidence an
 | Signal | Evidence |
 | --- | --- |
 | **Validated PAMIR baseline** | v0.1: **5/5 public incident ULogs**, **3/3 healthy controls**, timestamp validation **PASS**, SHA256-pinned inputs |
-| **Upstream track record** | **16 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 7 merged upstream PRs** |
+| **Upstream track record** | **17 verified merged PRs** across Apache SeaTunnel, OpenTelemetry C++, AIBrix/vLLM, Great Expectations, EFF Rayhunter and the ROS 2 ecosystem · **Apache SeaTunnel: 8 merged upstream PRs** |
 | **Public developer tooling** | **impactctl v0.2.0** · deterministic change-impact intelligence |
 | **Engineering decision tooling** | **bidlint v1.2.1** · stable release, real external supplier workflow and provenance-preserving compatibility validation |
 | **Current upstream work** | **vLLM Semantic Router**, **Polars**, Prefect/Dask, OpenTelemetry gRPC, Grafana Tempo, lakeFS and xAI SDK |
@@ -107,6 +107,7 @@ ARGUS is an evidence and assurance layer. It does **not** perform weapon control
 
 | Project | Contribution |
 | --- | --- |
+| [Apache SeaTunnel #12574](https://github.com/apache/seatunnel/pull/12574) | ClickHouse Source `host` declarative nonblank validation with focused factory regression coverage; approved and merged into `dev` |
 | [Apache SeaTunnel #12519](https://github.com/apache/seatunnel/pull/12519) | RabbitMQ Sink `queue_name` declarative nonblank validation with focused factory regression coverage and bilingual documentation; approved by two reviewers and merged into `dev` |
 | [Apache SeaTunnel #12490](https://github.com/apache/seatunnel/pull/12490) | TDengine declarative required-option validation, focused regression tests and bilingual documentation; approved by two reviewers and merged into `dev` |
 | [Apache SeaTunnel #12274](https://github.com/apache/seatunnel/pull/12274) | S3 Redshift declarative validation for required JDBC options with focused regression coverage |
@@ -130,6 +131,7 @@ Active contributions are concentrated on **AI/distributed infrastructure, data s
 
 | Project | Current contribution |
 | --- | --- |
+| [Apache SeaTunnel #12494](https://github.com/apache/seatunnel/pull/12494) | Zeta cluster-merge recovery reproduction/evidence: generation attribution, reset/redeploy interleaving and real eviction/rejoin validation |
 | [vLLM Router #297](https://github.com/vllm-project/router/pull/297) | Add request-scoped preprocessing context for zero-copy reuse of prepared token IDs across routing decisions |
 | [vLLM Semantic Router #3909](https://github.com/vllm-project/semantic-router/pull/3909) | Share Go 1.25 setup across PR workflows, with workflow-contract coverage and multi-module cache correctness |
 | [Polars #29404](https://github.com/pola-rs/polars/pull/29404) | Fix non-equivalent rolling offset/period handling with focused regression coverage |
