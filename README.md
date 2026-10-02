@@ -18,6 +18,12 @@ Three focused engineering lanes, backed by public code, reproducible evidence an
 | **Developer Infrastructure** | **[impactctl](https://github.com/yigitcan-ozturk/impactctl) v0.2.0** | Deterministic change-impact intelligence across code, contracts, dependencies and ownership boundaries |
 | **Engineering Decision Infrastructure** | **[bidlint](https://github.com/yigitcan-ozturk/bidlint) v1.2.1** | Evidence-first technical bid compliance with provenance, supplier clarification workflows and fail-closed external-pilot gates |
 
+## Community recognition
+
+🏆 **PX4 / Dronecode — New User of the Month, September 2026**  
+Selected as one of two new users recognized by the Dronecode community that month for technical participation in the PX4 forum.  
+[Dronecode recognition](https://discuss.px4.io/t/youre-a-new-user-of-the-month/49566) · [Badges](https://discuss.px4.io/badges)
+
 ## Proof at a glance
 
 | Signal | Evidence |
